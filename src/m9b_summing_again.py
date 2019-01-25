@@ -12,7 +12,7 @@ def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_powers()
     run_test_sum_powers_in_range()
-    sum_powers_in_range()
+    #sum_powers_in_range()
 
 def run_test_sum_powers():
     """ Tests the   sum_powers   function. """
