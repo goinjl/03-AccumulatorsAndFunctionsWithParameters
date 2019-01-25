@@ -273,7 +273,7 @@ def run_test_fancy_sums_of_digits():
     print('      answer   ', answer)
 
     expected = 49984
-    answer = fancy_sums_of_digits(2)
+    answer = fancy_sums_of_digits(5)
     print('test 3 expected', expected)
     print('    answer   ', answer)
 
@@ -314,7 +314,7 @@ def fancy_sums_of_digits(n):
     x = sum_of_digits(n**1000)
     y = sum_of_digits(n**999)
     x = x**y
-    return fancy_sums_of_digits(x)
+    return sum_of_digits(x)
 
     # -------------------------------------------------------------------------
     # DONE: 8. Implement and test this function.
